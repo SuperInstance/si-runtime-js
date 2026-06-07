@@ -1,0 +1,25 @@
+{
+  "name": "si-runtime",
+  "version": "0.1.0",
+  "description": "General-purpose JS/TS runtime for constraint-aware AI: conservation budgets, spectral ranking, capability discovery, cell composition — browser + Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["ai", "runtime", "conservation", "spectral", "capability", "agent"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperInstance/si-runtime-js.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.0",
+    "@types/jest": "^29.5.0"
+  }
+}
